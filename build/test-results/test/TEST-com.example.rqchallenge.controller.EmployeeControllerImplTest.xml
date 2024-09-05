@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.rqchallenge.controller.EmployeeControllerImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-05T08:13:14" hostname="LIN51018853" time="0.893">
+  <properties/>
+  <testcase name="testCreateEmployeeSuccess()" classname="com.example.rqchallenge.controller.EmployeeControllerImplTest" time="0.893"/>
+  <system-out><![CDATA[13:43:15.634 [Test worker] INFO com.example.rqchallenge.employees.controller.EmployeeControllerImpl - Creating a new employee with input: {name=Aman Garg, salary=5000, age=30}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

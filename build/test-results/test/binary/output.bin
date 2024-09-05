@@ -1,0 +1,1 @@
+±13:43:15.634 [Test worker] INFO com.example.rqchallenge.employees.controller.EmployeeControllerImpl - Creating a new employee with input: {name=Aman Garg, salary=5000, age=30}

@@ -15,6 +15,12 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'javax.inject:javax.inject:1'
+    // Lombok
+    implementation 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    // Logging
+    implementation 'org.springframework.boot:spring-boot-starter-logging'
+    implementation 'org.apache.commons:commons-configuration2:2.11.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
