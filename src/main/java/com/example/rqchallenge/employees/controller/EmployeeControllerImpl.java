@@ -88,7 +88,7 @@ public class EmployeeControllerImpl implements IEmployeeController{
 
         validateEmployeeRequest(employeeRequest);
         EmployeeResponseForCreate employee = employeeService.createEmployee(employeeRequest);
-        return new ResponseEntity<>(employee, HttpStatus.CREATED);
+        return new ResponseEntity<EmployeeResponseForCreate>(employee, HttpStatus.CREATED);
     }
 
     @Override

@@ -33,7 +33,7 @@ public class EmployeeClient {
         String baseUrl = dummyAPIBaseUrl.concat(CREATE_EMPLOYEE_PATH);
         try {
             ResponseEntity<EmployeeResponseForCreate> response = restTemplate.postForEntity(baseUrl, employeeRequest, EmployeeResponseForCreate.class);
-            if(response.getStatusCode() == HttpStatus.CREATED){
+            if(response.getStatusCode() == HttpStatus.OK){
                 log.info("Successfully created employee with response: {}", response.getBody());
                 return response.getBody();
             }
